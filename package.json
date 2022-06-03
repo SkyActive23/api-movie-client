@@ -1,11 +1,30 @@
 {
-  "name": "movie_api_client",
+  "name": "api-movie-client",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.html",
+  "source": "src/index.html",
+  "main": "index.js",
+  "dependencies": {
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "scheduler": "^0.22.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyActive23/api-movie-client.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkyActive23/api-movie-client/issues"
+  },
+  "homepage": "https://github.com/SkyActive23/api-movie-client#readme"
 }
