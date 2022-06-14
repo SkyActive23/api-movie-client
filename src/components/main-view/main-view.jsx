@@ -10,7 +10,7 @@ import { MovieCard } from '../movie-card/movie-card';
 
 import { MovieView } from '../movie-view/movie-view';
 
-export class MainView extends React.Component {
+export class MainView extends React.Componen {
     constructor() {
       super();
       // Initial state is set to null
